@@ -9,7 +9,7 @@
       @close="toggleModal"
     />
   </div>
-  <button @click="toggleModal">open modal</button>
+  <button @click.alt="toggleModal">open modal (alt)</button>
 </template>
 
 <script>
